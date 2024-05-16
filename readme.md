@@ -34,7 +34,14 @@ Punti fatti e falli subiti.
 - Infine  creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
 ### Svolgimento:
-1. 
+1. definisco un arrey di oggetti;
 
+2. definisco una finzione per generare numeri random con due parametri `min & max`;
+
+3. tramite il metodo `.map` cambio il velore iniziale di `0` di `puntiFatti` e `falliSubiti` con dei numeri random generati dalla funzione `generaRandom()`;
+
+4. definisco un nuovo arrey vuoto;
+
+5. tramite istruzione di iterazione `for` immetto nel nuovo arrey i valori di `nome` e di `falliSubiti`.
 
 ##### FINE
