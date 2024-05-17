@@ -65,6 +65,10 @@ const biciPiuLeggera = bici.filter((bici, i) => {
 console.log(biciPiuLeggera);
 
 // stompo con template literal il risultato:
-
-biciPiuLeggera.forEach(element => console.log(`La bici più leggera è la ${element.nome} con il peso di ${element.peso} kg.`));
+if (biciPiuLeggera.length !== 0){
+    
+    biciPiuLeggera.forEach(element => console.log(`La bici più leggera è la ${element.nome} con il peso di ${element.peso} kg.`));
+} else {
+    console.log('Non ci sono bici in elenco|');
+}
 ;
